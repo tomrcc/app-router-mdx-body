@@ -5,6 +5,9 @@ collections_config:
   blog:
     path: content/blog
     url: /blog/[slug]
+  notes:
+    path: content/notes
+    url: /notes/[slug]
 _snippets_imports:
   mdx: true
 _snippets:

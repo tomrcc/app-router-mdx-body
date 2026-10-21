@@ -1,7 +1,5 @@
-import Button from "./components/Button";
-
-const components = { Button };
+import { mdxComponents } from "./components/mdx-components";
 
 export function useMDXComponents() {
-  return components;
+  return mdxComponents;
 }
