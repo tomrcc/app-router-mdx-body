@@ -1,0 +1,15 @@
+{
+  "ssg": "nextjs",
+  "build": {
+    "install_command": "npm i",
+    "build_command": "npm run build",
+    "output_path": "out",
+    "preserved_paths": "node_modules/,.next/",
+    "environment_variables": [
+      {
+        "key": "NEXT_TELEMETRY_DISABLED",
+        "value": "1"
+      }
+    ]
+  }
+}
